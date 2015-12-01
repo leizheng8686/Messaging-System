@@ -1,7 +1,7 @@
 # Messaging-System
 810E project
 
-based on socket programming
+based on TCP protocol socket programming
 
 
 shengkai 
