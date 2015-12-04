@@ -32,8 +32,8 @@ And also we can communicate between two different clients through the server usi
 
 2.We have created a thread list to store all threads, and we also need to create flags for different threads, which means marks for different clients.
 
-A client send a request to server, says I want to talk with someone, then the server shows all online clients. Then the client will choose one to communicate. With this  thread list, a client can decide which client communicate to.
+A client send a request to server, says I want to talk with someone, then the server shows all online clients. Then the client will choose one to communicate. With this  thread list, the client can communicate to other certain client.
 
-3.Attach file to server from client.
+3.Attach file to server from client. And other clients could modify this file.
 
 4.Create options for clients to send different requests to server to ask for different functions.
