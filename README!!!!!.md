@@ -3,13 +3,16 @@
 
 Environment: Visual Studio 2015
 
-How to compile: in option of debug,  start source server support at debug option and click microsoft Symbol Server. Then debug with local Windows Compiler. Then debuger will load all pdb files needed.
+How to compile: 
+in option of debug,  start source server support at debug option and click microsoft Symbol Server. Then debug with local Windows Compiler. Then debuger will load all pdb files needed.
 
-Authors: Shengkai Yu,Yunlin Zeng,Lei Zheng
+Authors: 
+Shengkai Yu,Yunlin Zeng,Lei Zheng
 
 
 
 What we finish yet :
+
 1.We can implement communication between one client and one server, which means : client can send message to server and server will receive the message from client ;  server can send message to client and client will receive the message from server.
 
 2.We can implement the broadcast, which means that once we run several client program in several computers, if one client send message then all clients will receive this message.
