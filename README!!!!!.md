@@ -19,9 +19,12 @@ What we finish yet :
 
 2.We can implement the broadcast, which means that once we run several client program in several computers, if one client send message then all clients will receive this message.
 
+3.We have implemented multi-thread with AfxBeginThread.  Any client at any computer can join in the communication at any time.
+
+
 What we need to do more:
 
-1.We need to implement multi-thread, Which means several clients can establish several connections with one server at the same time. Some of the threads will suspend, and the others will work. 
+1.We need to extend multi-thread, Which means several clients can establish several connections with one server at the same time. Some of the threads will suspend, and the others will work. 
 
 With multi-thread, we can implement that different clients can send different messages to the server at the same time, and the server will show these messages separately.
 
