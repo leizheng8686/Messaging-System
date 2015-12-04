@@ -3,7 +3,7 @@
 
 Environment: Visual Studio 2015
 
-How to compile: 
+How to compile: in option of debug,  start source server support at debug option and click microsoft Symbol Server. Then debug with local Windows Compiler. Then debuger will load all pdb files needed.
 
 Authors: Shengkai Yu,Yunlin Zeng,Lei Zheng
 
