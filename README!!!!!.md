@@ -4,7 +4,9 @@
 Environment: Visual Studio 2015
 
 How to compile: 
-in option of debug,  start source server support at debug option and click microsoft Symbol Server. Then debug with local Windows Compiler. Then debuger will load all pdb files needed.
+1.In option of debug,  start source server support at debug option and click microsoft Symbol Server. Then debug with local Windows Compiler. Then debuger will load all pdb files needed.
+
+2.Replace the afxwin.h and afx.h in your VC include library, because we have modified them for some reasom. But if you do not replace them , you may have errs.    But something interesting is that MAYBE there are msome errs although you replace these two head file due to different computers. The solution is to delete the unknown identifier as it say.
 
 Authors: 
 Shengkai Yu,Yunlin Zeng,Lei Zheng
